@@ -1,0 +1,6 @@
+.next
+.idea/
+node_modules/
+dist/
+npm-debug.log
+.DS_Store

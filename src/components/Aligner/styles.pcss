@@ -1,0 +1,41 @@
+.aligner {
+  display: flex;
+
+  &_wrap {
+    flex-wrap: wrap;
+  }
+
+  &_center {
+    align-items: center;
+  }
+
+  &_top {
+    align-items: flex-start;
+  }
+
+  &_bottom {
+    align-items: flex-end;
+  }
+
+  &_baseline {
+    align-items: baseline;
+  }
+
+  &__center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__left {
+    flex: auto;
+    min-width: 0;
+  }
+
+  &__right {
+    margin-left: auto;
+    padding-left: 16px;
+    flex: 0 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
